@@ -21,3 +21,12 @@
 #whatWeDo{
   text-align: center;
 }
+
+#portfolio{
+  text-align: center;
+}
+
+#portfolio img{
+  object-fit: cover;
+  border: 12px solid white;
+}
