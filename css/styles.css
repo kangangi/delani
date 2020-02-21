@@ -11,3 +11,9 @@
 #about{
   text-align: center;
 }
+#services{
+  background: url(../img/backgrounds/s_image.jpg);
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
