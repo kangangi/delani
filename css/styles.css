@@ -1,9 +1,13 @@
-.header{
+#header{
   background: url(../img/backgrounds/h_img.jpg);
   text-align: center;
   background-size: cover;
   color: white;
 }
-.header p{
+#header p{
   font-size: 10px;
+}
+
+#about{
+  text-align: center;
 }
