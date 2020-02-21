@@ -30,3 +30,10 @@
   object-fit: cover;
   border: 12px solid white;
 }
+#contact {
+  background: url(../img/backgrounds/c_image.jpg);
+  color: white;
+}
+#contact h3{
+  text-align: center;
+}
