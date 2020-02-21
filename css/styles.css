@@ -34,6 +34,20 @@
   background: url(../img/backgrounds/c_image.jpg);
   color: white;
 }
+#contact for {
+  background: url(../img/backgrounds/c_image.jpg);
+  color: white;
+}
 #contact h3{
   text-align: center;
+}
+#design p{
+  display:none;
+}
+
+#development p{
+  display:none;
+}
+#product p{
+  display:none;
 }
