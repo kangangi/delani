@@ -24,11 +24,14 @@
 
 #portfolio{
   text-align: center;
+  font-size: 20px;
 }
 
 #portfolio img{
-  object-fit: cover;
-  border: 12px solid white;
+  object-fit:contain;
+  width: 300px;
+  height:300px;
+  border:10px solid white;
 }
 #contact {
   background: url(../img/backgrounds/c_image.jpg);
@@ -50,4 +53,93 @@
 }
 #product p{
   display:none;
+}
+
+#work1{
+    position: relative;
+}
+.caption1{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+.hide {
+    display: none;
+}
+
+#work2{
+    position: relative;
+}
+.caption2{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+#work3{
+    position: relative;
+}
+.caption3{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+
+#work4{
+    position: relative;
+}
+.caption4{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+
+#work5{
+    position: relative;
+}
+.caption5{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+
+#work6{
+    position: relative;
+}
+.caption6{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+#work7{
+    position: relative;
+}
+.caption7{
+    color: black;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    border: 6px solid white;
+}
+
+#work8{
+    position: relative;
+}
+.caption8{
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    border: 6px solid white;
 }
