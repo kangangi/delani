@@ -33,10 +33,7 @@
   height:300px;
   border:10px solid white;
 }
-#contact {
-  background: url(../img/backgrounds/c_image.jpg);
-  color: white;
-}
+
 #contact for {
   background: url(../img/backgrounds/c_image.jpg);
   color: white;
@@ -142,4 +139,35 @@
     left: 30%;
     top: 45%;
     border: 6px solid white;
+}
+#name{
+  width: 400px;
+  background: transparent;
+
+}
+
+#email{
+  width:400px;
+  background: transparent;
+}
+
+#message{
+  width: 700px;
+  background: transparent;
+}
+#contact {
+  background: url(../img/backgrounds/c_image.jpg);
+  color: white;
+  background-size: cover;
+}
+
+#socials{
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#delani{
+  text-align: center;
 }
