@@ -1,3 +1,13 @@
+document.getElementById("submit").addEventListener("click",function(event){
+  event.preventDefault()
+})
+function sendMsg(){
+  alert("your message has been received")
+}
+
+
+
+
 $(document).ready(function(){
   $("#design img").click(function(){
     $("#design p").show();

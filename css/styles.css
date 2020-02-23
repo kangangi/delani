@@ -3,6 +3,7 @@
   text-align: center;
   background-size: cover;
   color: white;
+  padding-top:  120px;
 }
 #header p{
   font-size: 10px;
@@ -10,12 +11,14 @@
 
 #about{
   text-align: center;
+  padding: 50px;
 }
 #services{
   background: url(../img/backgrounds/s_image.jpg);
   text-align: center;
   background-size: cover;
   color: white;
+  padding: 120px;
 }
 
 #whatWeDo{
