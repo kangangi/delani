@@ -144,18 +144,12 @@
     border: 6px solid white;
 }
 #name{
-  width: 400px;
   background: transparent;
-
 }
-
 #email{
-  width:400px;
   background: transparent;
 }
-
 #message{
-  width: 700px;
   background: transparent;
 }
 #contact {
@@ -173,4 +167,14 @@
 
 #delani{
   text-align: center;
+}
+
+#form-padding{
+  padding-top:40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#form-padding button{
+  object-position: center;
 }

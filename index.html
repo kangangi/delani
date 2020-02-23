@@ -143,22 +143,23 @@
     <h3>CONTACT US</h3>
     <br>
     <form>
+      <div id="form-padding">
       <div class="row">
         <div class="col-md-6">
       <div class="form-group">
-        <input id="name" class="form-control" type="text" placeholder="Name...">
+        <input id="name" class="form-control" type="text" placeholder="Name..." required>
       </div>
     </div>
      <div class="col-md-6">
       <div class="form-group">
-        <input id="email" class="form-control" type="email" placeholder="Email...">
+        <input id="email" class="form-control" type="email" placeholder="Email..." required>
        </div>
      </div>
    </div>
        <div class="form-group">
-         <textarea id="message" class="form-control" rows="6" placeholder="Your message here.."></textarea>
+         <textarea id="message" class="form-control" rows="6" placeholder="Your message here.." required></textarea>
       <button onclick="sendMsg()" type= "submit" class="btn btn-outline-info" id="submit">Send message</button>
-     </div></div>
+    </div></div></div>
 
 
      <div id="socials">
