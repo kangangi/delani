@@ -54,111 +54,34 @@
 #product p{
   display:none;
 }
-
-#work1{
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
+  display: none;
+  background-color: white;
+  opacity:.8;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  top: 20%
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+}
+#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
     position: relative;
 }
-.caption1{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-.hide {
-    display: none;
-}
-
-#work2{
-    position: relative;
-}
-.caption2{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-#work3{
-    position: relative;
-}
-.caption3{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-
-#work4{
-    position: relative;
-}
-.caption4{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-
-#work5{
-    position: relative;
-}
-.caption5{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-
-#work6{
-    position: relative;
-}
-.caption6{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-#work7{
-    position: relative;
-}
-.caption7{
-    color: black;
-    position: absolute;
-    left: 38%;
-    top: 45%;
-    border: 6px solid white;
-}
-
-#work8{
-    position: relative;
-}
-.caption8{
-    color: black;
-    position: absolute;
-    left: 30%;
-    top: 45%;
-    border: 6px solid white;
-}
-#name{
+#mce-FNAME{
   background: transparent;
-
-}
-#email{
-  background: transparent;
-}
-#message{
-  background: transparent;
-}
-#contact {
-  background: url(../img/backgrounds/c_image.jpg);
   color: white;
-  background-size: cover;
-}
 
+}
+#mce-EMAIL{
+  background: transparent;
+  color: white;
+}
+#mce-MMERGE2{
+  background: transparent;
+  color: white;
+}
 #socials{
   padding-left: 300px;
   padding-right: 300px;
@@ -178,4 +101,14 @@
 }
 #form-padding button{
   object-position: center;
+}
+ /*@media only screen and (max-width: 600px) {
+   body {
+     width: 100%;
+     font-size: 30px;
+   }*/
+#contact{
+  background: url(../img/backgrounds/c_image.jpg);
+  color: white;
+  background-size: cover;
 }
