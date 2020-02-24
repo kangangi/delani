@@ -9,9 +9,7 @@ The delani website has the following features:
 * Contact section for the user to send messages to delani
 Code for hovering was sourced from: https://stackoverflow.com/questions/16971757/how-to-display-text-over-a-faded-image-on-hover-using-jquery
 ## Setup/Installation Requirements
-* Run the link on the repository
-## Known Bugs
-
+* Run the link on the repository 
 ## Technologies Used
 HTML, CSS ,JavaScript, GIT and GitHub
 ## Support and contact details
