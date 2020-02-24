@@ -1,6 +1,6 @@
 # Delani Website 
-#### Delani Studio website, 21st February 2020
-#### By **Diana W Kan** 
+#### Delani Studio Website, 21st February 2020
+#### By **Diana W Kangangi** 
 ## Description
 The delani website has the following features:
 * About us section 
@@ -12,7 +12,6 @@ Code for hovering was sourced from: https://stackoverflow.com/questions/16971757
 * Run the link on the repository
 ## Known Bugs
 Mail chimp function not complete
-
 ## Technologies Used
 HTML, CSS ,JavaScript, GIT and GitHub
 ## Support and contact details
