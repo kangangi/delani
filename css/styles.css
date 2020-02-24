@@ -23,10 +23,15 @@
 
 #whatWeDo{
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #portfolio{
   text-align: center;
+  font-size: 10px;
+}
+#portfolio h3{
   font-size: 20px;
 }
 
@@ -69,22 +74,8 @@
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
     position: relative;
 }
-#mce-FNAME{
-  background: transparent;
-  color: white;
 
-}
-#mce-EMAIL{
-  background: transparent;
-  color: white;
-}
-#mce-MMERGE2{
-  background: transparent;
-  color: white;
-}
 #socials{
-  padding-left: 300px;
-  padding-right: 300px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -101,9 +92,26 @@
 }
 #form-padding button{
   object-position: center;
+  color: white;
+
 }
 #contact{
   background: url(../img/backgrounds/c_image.jpg);
   color: white;
+  font-weight: bold;
   background-size: cover;
+}
+
+#mce-FNAME{
+  background: transparent;
+  color: white;
+
+}
+#mce-EMAIL{
+  background: transparent;
+  color: white;
+}
+#mce-MMERGE2{
+  background: transparent;
+  color: white;
 }

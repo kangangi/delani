@@ -1,64 +1,32 @@
-//send message to user once clicked
+//send alert to user
 function sendMsg(){
   var name = $("#mce-FNAME").val();
   var email =$("#mce-EMAIL").val();
   var message=$("#mce-MMERGE2").val();
+  if (name === "" || email === ""){
+    alert("Please fill in the form")
+  } else{
   alert("Thank you " + name +  "! Your message has been received")
 };
-//toggle function
+};
 $(document).ready(function(){
-  $("#design img").click(function(){
-    $("#design p").show();
-    $("#design img").hide();
-  });
-  $("#design p").click(function(){
-    $("#design p").hide();
-    $("#design img").show();
-  });
-
-  $("#development img").click(function(){
-    $("#development p").show();
-      $("#development img").hide();
-  });
-
-  $("#development p").click(function(){
-    $("#development p").hide();
-    $("#development img").show();
-  });
-
-  $("#product img").click(function(){
-    $("#product p").show();
-      $("#product img").hide();
-  });
-
-  $("#product p").click(function(){
-    $("#product p").hide();
-    $("#product img").show();
-  });
-
-  //hovering function
-  $('#work1 img').hover(function() {
-    $('.work1').toggle()
-  });
-  $('#work2 img').hover(function() {
-    $('.work2').toggle()
-  });
-  $('#work3 img').hover(function() {
-    $('.work3').toggle()
-  });
-  $('#work4 img').hover(function() {
-    $('.work4').toggle()
-  });
-  $('#work5 img').hover(function() {
-    $('.work5').toggle()
-  });
-  $('#work6 img').hover(function() {
-    $('.work6').toggle()
-  });
-  $('#work7 img').hover(function() {
-    $('.work7').toggle()
-  });
-  $('#work8 img').hover(function() {
-    $('.work8').toggle()
-  });
+//toggle functionality
+var services =["design", "development", "product"]
+services.forEach(function(service){
+   $("#"+service+ " img").click(function(){
+     $("#"+service+ " p").show()
+     $("#"+service+ " img").hide()
+   });
+   $("#"+service + " p").click(function(){
+     $("#"+service + " img").show()
+     $("#"+service + " p").hide()
+   });
+});
+//hovering effect
+ var works = ["work1", "work2","work3", "work4","work5", "work6","work7", "work8"]
+ works.forEach(function(work){
+   $("#" +work+ " img").hover(function() {
+     $("."+work).toggle()
+   });
+ });
 });
