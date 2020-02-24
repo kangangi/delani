@@ -11,7 +11,7 @@ Code for hovering was sourced from: https://stackoverflow.com/questions/16971757
 ## Setup/Installation Requirements
 * Run the link on the repository
 ## Known Bugs
-Mail chimp function not complete
+
 ## Technologies Used
 HTML, CSS ,JavaScript, GIT and GitHub
 ## Support and contact details
