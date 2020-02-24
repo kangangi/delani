@@ -4,17 +4,15 @@
 ## Description
 The delani website has the following features:
 * About us section 
-* Services section which has short description of the services offered
-* Portfolio section showing some of the projects by delani
-* Contact section for the user to send messages to delani
-Code for hovering was sourced from: https://stackoverflow.com/questions/16971757/how-to-display-text-over-a-faded-image-on-hover-using-jquery
+* Services section which has short description of the services offered by the studio.
+* Portfolio section showing some of the projects by Delani studios.
+* Contact section for the user to send messages to Delani. The user gets an email through Mail Chimp
 ## Setup/Installation Requirements
 * Run the link on the repository 
 ## Technologies Used
-HTML, CSS ,JavaScript, GIT and GitHub
+HTML,CSS ,JavaScript, Mail Chimp,GIT and GitHub
 ## Support and contact details
 Contact wanjikukangangi@gmail.com
 ### License
 MIT 
-Copyright (c) {2020} **Diana Kangangi**
-  
+Copyright (c) 2020 **Diana Kangangi**
